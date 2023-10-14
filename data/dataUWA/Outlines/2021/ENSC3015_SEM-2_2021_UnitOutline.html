@@ -1,0 +1,436 @@
+<!DOCTYPE doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <!--<meta content="no-cache" http-equiv="Pragma" />
+    <meta content="-1" http-equiv="Expires" />
+    <meta content="NO-CACHE" http-equiv="CACHE-CONTROL" />-->
+
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <title>
+        Unit Outline - ENSC3015 Signals and Systems - Face to face / Blended learning
+    </title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+    <meta content="" name="author" />
+    <!--[om] reordered JS first-->
+    <xxxx id="js" src="https://lms.uwa.edu.au/bbcswebdav/institution/Unit_Outlines_2019/FullCalendar/lib/jquery.min.js"></xxxx>
+    <!--[om] inserted BS js to allow BS functionality (hamburger etc)-->
+    <xxxx src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></xxxx>
+    <xxxx src="https://lms.uwa.edu.au/bbcswebdav/institution/Unit_Outlines_2019/bootstrap/js/modernizr.js"></xxxx>
+    <link href="favicon.ico" rel="shortcut icon" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900" rel="stylesheet" type="text/css" />
+    <!-- Awesome Fonts -->
+    <link href="https://lms.uwa.edu.au/bbcswebdav/institution/Unit_Outlines_2019/bootstrap/css/font-awesome.css" rel="stylesheet" />
+    <!-- Bootstrap -->
+    <link href="https://lms.uwa.edu.au/bbcswebdav/institution/Unit_Outlines_2019/bootstrap/assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- Template Styles -->
+    <link href="https://lms.uwa.edu.au/bbcswebdav/institution/Unit_Outlines_2019/bootstrap/style.css" rel="stylesheet" />
+    <link href="https://lms.uwa.edu.au/bbcswebdav/institution/Unit_Outlines_2019/bootstrap/css/colors.css" rel="stylesheet" />
+    <!-- Layer Slider -->
+    <link href="https://lms.uwa.edu.au/bbcswebdav/institution/Unit_Outlines_2019/bootstrap/layerslider/css/layerslider.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <section class="section1">
+        <div class="topbar clearfix" style="background-color: #27348b; min-height: 90px;">
+            <div class="container">
+                <div class="col-lg-12 col-md-12 col-sm-12 text-left" style="padding-top: 15px; padding-bottom: 5px;">
+                    <div class="site-title" id="title">
+                        <a href="index.html" title="Unit Outline">
+                            <img alt="UWA" src="https://lms.uwa.edu.au/bbcswebdav/institution/Unit_Outlines_2019/bootstrap/images/logo.png" style="min-height: 5px;" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end container -->
+        <!-- end topbar -->
+        <header class="header">
+            <div class="container">
+                <div class="site-header clearfix">
+                    <!-- title area -->
+                    <!-- [om] sm.md.lg assumed --    <div class="col-lg-12 col-md-12 col-sm-12"> -->
+                    <div class="col-xs-12">
+                        <nav class="navbar navbar-default" role="navigation">
+                            <div class="navbar-header">
+                                <button class="navbar-toggle" data-target=".navbar-ex1-collapse" data-toggle="collapse" type="button">
+                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                            </div>
+                            <div class="collapse navbar-collapse navbar-ex1-collapse container">
+                                <ul class="nav navbar-nav navbar-left">
+                                    <li>
+                                        <!--<a href="Signals and Systems - Face to face / Blended learning.html" id="Outline">Unit Outline</a>-->
+                                        <a href="#" id="Outline">Unit Outline</a>
+                                    </li>
+                                </ul>
+                                <ul class="nav navbar-nav navbar-right">
+                                    <!--
+                                    <li>
+                                        <a xx="printDiv('printableArea')">Print</a>
+                                    </li>
+                                    -->
+                                </ul>
+                            </div>
+                            <!-- /.navbar-collapse -->
+                        </nav>
+                    </div>
+                    <!-- title area -->
+                </div>
+                <!-- site header -->
+            </div>
+            <!-- end container -->
+        </header>
+        <!-- end header -->
+        <div id="printableArea">
+            <section class="post-wrapper-top">
+                <div class="container">
+                    <div class="post-wrapper-top-shadow">
+                        <span class="s1">
+                        </span>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <h2 id="UnitTitle">ENSC3015 Signals and Systems - Face to face / Blended learning</h2>
+                        <!--
+                        <xxxx id="TitleBuilder" type="xxxx/xxxxxxxxxx">
+                            //this gets the full url
+                            var url = document.location.href;
+                            //this removes the anchor at the end, if there is one
+                            url = url.substring(0, (url.indexOf("#") == -1) ? url.length : url.indexOf("#"));
+                            //this removes the query after the file name, if there is one
+                            url = url.substring(0, (url.indexOf("?") == -1) ? url.length : url.indexOf("?"));
+                            //this removes everything before the last slash in the path
+                            url = url.substring(url.lastIndexOf("/") + 1, url.length);
+                            //this removes the UnitID_TeachingPeriod as a string for renaming to the Editable file to load.
+                            var titleFileFile = url.split("_");
+                            //if the Unit is Online it appears as titleFileFile[3] else it is "UnitOutline.html". Set it to space and isn't visible at end of title.
+                            if (titleFileFile[3] === "UnitOutline.html") {
+                            titleFileFile[3] = " ";
+                            }
+                            var TitleWithTeachingPeriod = document.getElementById("UnitTitle").innerHTML + " " + titleFileFile[1] + " " + titleFileFile[2] + " " + titleFileFile[3];
+                            document.getElementById("UnitTitle").innerHTML = TitleWithTeachingPeriod;
+                        </xxxx>
+                        -->
+                    </div>
+                </div>
+            </section>
+            <!-- end post-wrapper-top -->
+            <div class="container clearfix">
+                <div class="content clearfix" id="UnitOutlineContent">
+                    <!-- Begin CAIDI Data -->
+                    <div id="divCaidiInformation">
+                        <h3>Unit Information</h3>
+                        <table class="table table-bordered" data-effect="fade" id="Unit_Information" style="">
+                            <tbody class="">
+                                <tr>
+                                    <th>Unit Code</th>
+                                    <td>ENSC3015</td>
+                                </tr>
+                                <tr>
+                                    <th>Title</th>
+                                    <td>Signals and Systems - Face to face / Blended learning</td>
+                                </tr>
+                                <tr>
+                                    <th>Level</th>
+                                    <td>3</td>
+                                </tr>
+                                <tr>
+                                    <th>Faculty</th>
+                                    <td>Engineering</td>
+                                </tr>
+                                <tr>
+                                    <th>School</th>
+                                    <td>Engineering</td>
+                                </tr>
+                                <tr>
+                                    <th>Unit Coordinator</th>
+                                    <td>Roberto Togneri</td>
+                                </tr>
+                                <tr>
+                                    <th>Credit Points</th>
+                                    <td>6 points</td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <h3>Teaching contingency plan (In response to Covid19 restrictions)</h3>
+                        <p>Not applicable</p>
+
+                        <h3>Academic Information</h3>
+                        <table class="table table-bordered" id="Academic_Information" style="">
+                            <tbody class="">
+                                <tr>
+                                    <th>Content</th>
+                                    <td>This unit covers the fundamentals of signal and system analysis, focusing on dynamical systems in time and frequency domains, transforms (Laplace, Fourier and Z) used in the analysis and design in signals and systems, sampling and reconstruction of signals, and analog and digital filters. Applications are drawn broadly from engineering including feedback and control, and communications and signal  processing.</td>
+                                </tr>
+                                <tr>
+                                    <th>Unit Learning Outcomes</th>
+                                    <td>
+                                        <table class='table table-bordered' id='' style=''><thead> <tr> <th>#</th> <th> Outcome </th> <th> How outcome will be assessed </th> </tr></thead><tbody class=''><tr><td> 1 </td><td>demonstrate an ability to work in a professional engineering capacity</td><td>labs</td></tr><tr><td> 2 </td><td>apply time-domain concepts and methods of analysis—impulse response and convolution to signals and systems</td><td>class tests; exam; labs</td></tr><tr><td> 3 </td><td>apply frequency-domain concepts and methods of analysis—Laplace, Z, and Fourier transforms to signals and systems</td><td>class tests; exam; labs</td></tr><tr><td> 4 </td><td>model complex systems using block diagrams</td><td>class tests; exam</td></tr><tr><td> 5 </td><td>analyse sampling and reconstruction of signals</td><td>labs; exam</td></tr><tr><td> 6 </td><td>apply simulation tools to predict time and frequency domain behaviour of systems</td><td>labs</td></tr></tbody></table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th>Indicative Assessment</th>
+                                    <td>
+                                        <table class="table table-bordered" id="" style="width: auto;">
+                                            <thead>
+                                                <tr>
+                                                    <th>#</th>
+                                                    <th>Assessment</th>
+                                                    <th>Indicative weighting</th>
+                                                    <th>Failed component</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody class="">
+                                                <tr><td> 1</td><td>laboratories</td><td>30%</td><td>0</td></tr><tr><td> 2</td><td>class tests</td><td>20%</td><td>0</td></tr><tr><td> 3</td><td>an examination</td><td>50%</td><td>0</td></tr>
+                                            </tbody>
+                                        </table>
+                                        <i>The indicative assessment structure provides an overview of how this unit is typically assessed. In order to fit teaching requirements, this may change slightly from year to year. Restrictions to face-to-face learning associated with COVID-19 may result in variation to the Indicative Assessment structure. The Required Assessments table below shows how the unit is being assessed in this specific teaching period.</i>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <!--<th>Supplementary assessment statement</th>
+                <td>Please refer to required assessments below.</td>-->
+                                    <th>Required Assessments</th>
+                                    <!--<td>See below.</td>-->
+                                    <td>Unit grades are determined from final unit marks in accordance with the UWA <a href="http://www.governance.uwa.edu.au/procedures/policies/policies-and-procedures?method=document&id=up15/5">Policy</a> on Assessment</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- End CAIDI Data -->
+
+                    <h3>Contact Details</h3>
+                    <div><div><table class='table table-bordered table-condensed' id='Contact_Details'><tbody><tr><td colspan = '2'><h5> Unit Coordinator Contact Information </h5></td></tr><tr><th width='18%' > Name </th><td>Roberto Togneri</td></tr><tr><th width='18%' > Email</th><td>Roberto.Togneri@uwa.edu.au</td></tr><tr><th width='18%' >Phone number</th><td>+61 8 6488 2535</td></tr><tr><th width='18%' >Room number or location</th><td>Rm 4.10 EECE building (B226)</td></tr><tr><th width='18%' >Consultation information</th><td></td></tr></tbody></table></div><div><table class='table table-bordered table-condensed' id='Contact_Details'><tbody><tr><td colspan = '2'><h5> Unit demonstrator/facilitator Contact Information </h5></td></tr><tr><th width='18%' > Name </th><td>Lu  Jin</td></tr><tr><th width='18%' > Email</th><td>lu.jin@uwa.edu.au</td></tr><tr><th width='18%' >Phone number</th><td>+61 8 6488 7982</td></tr><tr><th width='18%' >Room number or location</th><td>Room 2.72 EECE Building</td></tr></tbody></table></div><div><table class='table table-bordered table-condensed' id='Contact_Details'><tbody><tr><td colspan = '2'><h5> Unit demonstrator/facilitator Contact Information </h5></td></tr><tr><th width='18%' > Name </th><td>Daanish  Arya</td></tr><tr><th width='18%' > Email</th><td>22870902@student.uwa.edu.au</td></tr><tr><th width='18%' >Phone number</th><td></td></tr><tr><th width='18%' >Room number or location</th><td></td></tr></tbody></table></div></div>
+                    <h4>Unit Details</h4>
+                    <p>ENSC3015 - ENSC3015_SEM-2_2021 - SEM-2-2021 - 2021 - Face to face / Blended learning</p>
+                    <h3>Unit Information</h3>
+                    <p><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p><p>This unit covers the fundamentals of signal and system analysis, focusing on dynamical systems in time and frequency domains, transforms (Laplace, Fourier and Z) used in the analysis and design in signals and systems, sampling and reconstruction of signals, and analog and digital filters. Applications are drawn broadly from engineering including feedback and control, and communications and signal processing.</p></p></pre></p>
+                    <h3>Lecture Capture System</h3>
+                    <p><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>In accordance with UWA’s policy on lecture capture all lectures* in enabled venues will be recorded and made available to stream and download by enrolled students via the Lecture Capture System (LCS) for the duration of the unit (including Supplementary and Deferred Examinations period).
+
+* Please note that in some limited circumstances lectures may not be recorded due to:  ethical and/or security related issues; the use of commercially sensitive material; the use of third-party copyright teaching material; or culturally sensitive content. Students will be advised, in advance, when this applies.</p></pre></p>
+                    <h3>Learning And Teaching Strategy</h3>
+                    <p><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p><p>The unit content will be delivered through the lecture notes, you can self-assess your learning through the tutorials and you supplement your learning by accessing the recommended readings texts.</p><p>There will be some live overview lectures, but the pre-recorded lecture modules are the main resource to guide you through the content, highlight key results and concepts, and work through demos and problems. There will be small-group practice classes and individual consultation which will supplement the pre-recorded tutorial modules and go through selected questions and explain how to get to the solution.</p><p>You will need to access the lectures notes, pre-recorded lecture material and tutorials as indicated by the Preparation column in the Unit Schedule.</p><p>Your learning will be complemented by learning how to use the MATLAB / SIMULINK software to analyse systems and signals both as group lab work and individual exploration and discovery. To assist in your learning of concepts through short questions and worked problems there will be summative assessment consisting of two class tests during semester and a final examination. To motivate and engage in the engineering analysis and design there will be summative assessment consisting of group lab work using simulations of systems and signals which you can configure, run and observe.&nbsp;</p></p></pre></p>
+                    <h3>Unit Structure</h3>
+                    <p><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p><p><strong><i><u>Learning and Participation</u></i></strong></p><p>There will be no formal lectures or tutorials as content learning will self-guided by accessing the online lecture notes and pre-recorded lecture and tutorial modules as indicated in the Preparation column of the Unit Schedule. This will be supplemented by live overview lecture and Q&amp;A sessions where you can talk to the lecturer, interactive practice class sessions where you can interact with the tutor/facilitator and work together with other students, and scheduled lab sessions where you will work with a team of students to carry out hands-on application analysis and design from your learning under the guidance of the lab demonstrator.<br></p><p>There will be a&nbsp;<strong>2 hour weekly live Face-to-Face (F2F) and/or Teams lecture/Q&amp;A session each week during the 11:00-13:00 Monday Lecture timetable slot</strong>, this includes a welcome F2F session in week 1 that all students are expected to attend. Subsequent sessions from week 2 will be live streaming for all students as it is more convenient (unless otherwise requested). These sessions will include an Q&amp;A/Quiz activity and an overview lecture of the weekly learning.<br></p><p>There will be a <strong>2 hour weekly live F2F and/or Teams interactive practice class session each week during the 08:00-10:00 Thursday Lecture/Tutorial timetable slot</strong>. These are small-group tutorial and consultation style sessions where a tutor and facilitators will able to provide extra practice on the weekly tutorial questions, address your concerns on the tutorial material and provide extra examples, quiz questions, etc. to assist your learning. These work best if you work in small groups around a table for which the venue has been designed for.&nbsp;</p><p>There will be <strong>3 labs each of 3 hours duration running across 2 weeks during the timetabled Laboratory slots</strong>. <strong>Please be sure you know which session you need to attend as <u>laboratory attendance is mandatory</u> for the assessment. You need to attend one 3 hour session for each of the 3 labs you will need to complete</strong>. Lab instructions will be made available prior to your session so you can prepare and complete the pre-lab exercises before the lab. During the lab you will work with a team of students and after the lab you will work with your team to submit a group lab report.</p><p>These live and interactive lecture, practice and lab sessions are your opportunity to connect with the class community, other students and your lecturer/tutor/facilitator/demonstrator, and get the answers to the questions and concerns you have and learn how to apply and demonstrate (to yourself and others) what you have learned.</p><p><strong><i><u>Assessment</u></i></strong></p><p>This will mainly consist of the group lab work (30%) where students will demonstrate, analyse and apply their learning of signals and systems through the use of simulation tools; and class test and final exam (70%) where students will apply the theory and modelling of signals and systems through worked problem solutions. <strong>There will be two class tests held during the semester for the (20%) class test mark, and 3 lab sessions and group work for the (30%) lab mark. The final exam for the (50%) mark will be held during the end of semester exam period</strong>.</p><p>Each lab will require submission of a group lab report within 5 working days of your scheduled lab session (please check your timetable for your scheduled session). Specific instructions for the class tests and lab sessions will be provided through LMS in advance.&nbsp;<br></p><p>There will also be a final examination at the end of semester. Details on how this will be conducted will be announced at a later date.</p><p><strong><i><u>Face-to-Face (F2F) and Online students</u></i></strong></p><p>The lab sessions will either be F2F in the computer lab or online interactive. Please be sure you attend the correct session type for your enrolment (as a F2F or online student).</p><p>The 11:00-13:00 Monday lecture/Q&amp;A sessions will be live streamed through MS Teams (except for week 1 which will be F2F live). These sessions will be recorded.</p><p>The 08:00-10:00 Thursday practice class sessions will be F2F interactive in the venue (from 08:00) and alternate delivered to online students through MS Teams (from 08:30). If there is insufficient attendance the session will revert to MS Teams only. These sessions will NOT be recorded.</p></p></pre></p>
+                    <h3>Required Assessments</h3>
+                    <table class="table table-bordered table-condensed" id="RequiredAssessments" style="table-layout: auto;width: 100%;white-space:nowrap;">
+                        <colgroup>
+                            <!--<col style="width: 3%;" />
+                            <col style="width: 10%;" />
+                            <col style="width: 3%;" />
+                            <col style="width: 30%;" />
+                            <col style="width: 45%;" />
+                            <col style="width: 13%;" />-->
+                            <col />
+                            <col />
+                            <col />
+                            <col />
+                            <col />
+                            <col />
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <th align="center">Item #</th>
+                                <th>Assessment Item</th>
+                                <th>Weighting</th>
+                                <th>Deadline</th>
+                                <th>Submission Procedure</th>
+                                <th>Unit Learning Outcome</th>
+                            </tr>
+                            <tr><td style='white-space:nowrap;' >1</td><td style='white-space:nowrap;' ><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>laboratories</p></pre></td><td style='white-space:nowrap;' ><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>30%</p></pre></td><td style='white-space:nowrap;' ><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>See Unit Schedule/Assessment, submitted within 5 working days of your scheduled lab session.</p></pre></td><td style='white-space:nowrap;' ><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>Group lab report online through LMS  within 5 working days of your scheduled lab session</p></pre></td><td style='white-space:nowrap;' ><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>1,5,6</p></pre></td></tr><tr><td style='white-space:nowrap;' >2</td><td style='white-space:nowrap;' ><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>class tests</p></pre></td><td style='white-space:nowrap;' ><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>20%</p></pre></td><td style='white-space:nowrap;' ><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>See Unit Schedule/Assessment, submitted on the day of the class test.</p></pre></td><td style='white-space:nowrap;' ><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>F2F: Handed in at end of test, Online: Uploaded to LMS</p></pre></td><td style='white-space:nowrap;' ><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>2,3,4</p></pre></td></tr><tr><td style='white-space:nowrap;' >3</td><td style='white-space:nowrap;' ><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>an examination</p></pre></td><td style='white-space:nowrap;' ><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>50%</p></pre></td><td style='white-space:nowrap;' ><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>Final Examination Timetable</p></pre></td><td style='white-space:nowrap;' ><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>Check the Final Exam Timetable</p></pre></td><td style='white-space:nowrap;' ><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>2,3,4</p></pre></td></tr>
+                        </tbody>
+                    </table>
+
+                    <div style="visibility:hidden" ><p style="font-weight:bold">The following assessment items do NOT require supporting evidence if you are seeking special consideration extension of 48 hours or less past the due date : <br/>!@AssessmentsRequiringEvidence </p></div>
+
+                    <h3>Unit Schedule</h3>
+                    <table class="table table-bordered table-condensed" id="Unit_Schedule" style="table-layout: auto;width: 100%;white-space:nowrap;">
+                        <colgroup>
+                            <!--<col style="width: 3%;" />
+                            <col style="width: 10%;" />
+                            <col style="width: 17%;" />
+                            <col style="width: 30%;" />
+                            <col style="width: 15%;" />
+                            <col style="width: 25%;" />-->
+                            <col />
+                            <col />
+                            <col />
+                            <col />
+                            <col />
+                            <col />
+                        </colgroup>
+                        <tbody>
+                            <tr>
+                                <th>Week #</th>
+                                <th>Date Starting</th>
+                                <th>Topic</th>
+                                <th>Preparation</th>
+                                <th>Assessment</th>
+                                <th>Notes</th>
+                            </tr>
+                            <tr><td>1 </td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>26/07/2021</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>Introduction to Signals and Systems</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>Chapter 0 ; Chapter 1; Tutorial 0</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p></p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p></p></pre></td></tr><tr><td>2 </td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>02/08/2021</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>Introduction to Signals and Systems</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>Chapter 1; Tutorial 1</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p></p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p></p></pre></td></tr><tr><td>3 </td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>09/08/2021</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>Continuous-Time LTI Systems and Laplace Transform</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>Chapter 2; Tutorial 2</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p></p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p></p></pre></td></tr><tr><td>4 </td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>16/08/2021</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>Continuous-Time LTI Systems and Laplace Transform</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>Chapter 2; Tutorial 2</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>LAB 1: Introduction to MATLAB and Simulink</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p></p></pre></td></tr><tr><td>5 </td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>23/08/2021</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>Discrete-Time LTI Systems and z-Transform</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>Chapter 3; Tutorial 3</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>LAB 1: Introduction to MATLAB and Simulink</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>A MOCK class test will be held: 12:00-13:00, Monday, August 23 for online tests (available for F2F students)</p></pre></td></tr><tr><td>6 </td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>30/08/2021</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>Discrete-Time LTI Systems and z-Transform ; Introduction to Fourier Analysis;</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>Chapter 3; Tutorial 3 ; Chapter 4</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p></p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p></p></pre></td></tr><tr><td>7 </td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>13/09/2021</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>Continuous-Time Signal Analysis: Fourier Series (FS)</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>Chapter 5; Tutorial 4 and 5</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>TEST 1: CT and DT Systems and Laplace and Z Transforms
+
+LAB 2: Linear Time Invariant Systems Simulation using SIMULINK</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>TEST 1 will be held: 11:00-12:00, Monday, September 13</p></pre></td></tr><tr><td>8 </td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>20/09/2021</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>Continuous-Time Signal
+Analysis: Fourier Series (FS)
+</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>Chapter 5; Tutorial 5</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>LAB 2: Linear Time Invariant Systems Simulation using SIMULINK</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p></p></pre></td></tr><tr><td>9 </td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>27/09/2021</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>Continuous-Time Signal
+Analysis: Fourier Transform (FT)</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>Chapter 6; Tutorial 6</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p></p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>Mon 27 Sept - Queens B/Day (University Holiday)</p></pre></td></tr><tr><td>10 </td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>04/10/2021</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>Continuous-Time Signal
+Analysis: Fourier Transform (FT)</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>Chapter 6; Tutorial 6</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>LAB 3: Fourier Series and Fourier Transform Simulation using MATLAB</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p></p></pre></td></tr><tr><td>11 </td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>11/10/2021</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>Sampling and Discrete-Time Fourier Analysis</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>Chapter 7; Tutorial 7</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>LAB 3: Fourier Series and Fourier Transform Simulation using MATLAB</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p></p></pre></td></tr><tr><td>12 </td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>18/10/2021</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>Sampling and Discrete-Time Fourier Analysis</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>Chapter 7; Tutorial 7</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>TEST 2: Signals Analysis and Fourier Series and Fourier Transform</p></pre></td><td><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p>TEST 2 will be held: 11:00-12:00, Monday, October 18</p></pre></td></tr>
+                        </tbody>
+                    </table>
+                    <h3>Participation</h3>
+                    <p><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p><p>As most learning will be online, active participation through time management of your self-learning is crucial. Mandatory participation is required for the two class tests (for the 20% assessment), the scheduled lab sessions (to know who your student group members are and assistance in doing the lab), and in communication with your lab group subsequent to the scheduled session to complete and submit the lab report (for the 30% assessment). You will also be required to attend the final exam at the scheduled time (for the 50% assessment)</p></p></pre></p>
+                    <h3>Referencing Requirements</h3>
+                    <p><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p><p>The University strongly supports teaching and learning that promotes academic literacy and ethical scholarship (<a href='http://www.student.uwa.edu.au/learning/resources/ace/conduct' target='_blank' >http://www.student.uwa.edu.au/learning/resources/ace/conduct</a>) especially in regards to plagiarism.</p></p></pre></p>
+                    <!--<h3>Texts</h3>
+                    <p><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p></p></pre></p>-->
+                    <style>
+                        #tblTextBooks {
+                            font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+                            border-collapse: collapse;
+                            width: 100%;
+                        }
+
+                            #tblTextBooks td, #customers th {
+                                border: 1px solid #ddd;
+                                padding: 8px;
+                            }
+
+                            #tblTextBooks tr:nth-child(even) {
+                                background-color: #f2f2f2;
+                            }
+
+                            #tblTextBooks tr:hover {
+                                cursor: pointer;
+                                background-color: #ddd;
+                            }
+
+                            #tblTextBooks th {
+                                padding-top: 12px;
+                                padding-left: 5px;
+                                padding-bottom: 12px;
+                                text-align: left;
+                                background-color: #0e55b5;
+                                color: white;
+                            }
+                    </style>
+
+                    <h3>Essential Textbooks</h3>
+                    <p><div  hidden='hidden'  style="padding-bottom:1em"></div></p>
+                    <p>
+                        There are no essential textbooks set for this unit. There may be essential and recommended readings set for this unit available in Unit Readings in the LMS.
+                    </p>
+
+                    <h3>Other</h3>
+                    <p><pre style='background-color:FFFFFF;padding: 0; margin - bottom: 12px; font - family: "Source Sans Pro", sans - serif; font - weight: 400; font - size: 14px; line - height: 22px; color: #696E74; margin - top: 10px;word-break:break-word ' ><p><p>The unit LMS under '<strong>Lecture Recordings'</strong> contains the pre-recorded lecture modules and weekly live lecture recordings.</p><p>The unit LMS under '<strong>Content</strong>' contains the course reader (lecture notes, tutorial questions and solutions) and important resources for learning and assessment.</p><p>Students can also order print course readers online (lecture notes and tutorial questions only) and either collect from the Guild Second hand Book shop (probably covid-dependent), or have it delivered (at a cost). You log into the the <strong>Uniprint</strong> Website (<a href='https://www.uniprint.uwa.edu.au/services/unit-readers-student-notes' target='_blank' >https://www.uniprint.uwa.edu.au/services/unit-readers-student-notes</a>) with your Pheme Details and order from there. Cost to students should be $11.40.</p></p></pre></p>
+
+                </div>
+                <div id="includedContent02">
+                    <h4>Late submission of Assignments</h4>
+                    <p>A penalty of 5 per cent of the total mark allocated for the assessment item is deducted per day for the first 7 days (including weekends and public holidays) after which the assignment is not accepted. Each 24-hour block is recorded from the time the assignment is due.</p>
+                    <p>For example, if an assignment is late by three days and was given 45 out of a possible mark of 50, you would receive a mark of 37.5 out of 50 (a mark of 2.5 is deducted per day).</p>
+                    <p>If there are a number of tasks within an assessment item, the late penalty may be applied to the whole assessment item after all tasks have been completed.</p>
+                    <p>If an assignment is graded Pass/Fail, failure to submit the assignment in time may result in the student not being permitted to take the final exam at the end of the semester or a teaching period and being unable to progress to the next level of the course or to graduate in the case where it is the final unit of the course;</p>
+                    <h4>Penalty for exceeding word limit</h4>
+                    <p>Where a submitted assignment exceeds the word limit, a penalty of 1 per cent of the total mark allocated for the assessment task applies for each 1 per cent in excess of the word limit, or the marking ceases once the word limit is reached.</p>
+                    <h4>Academic conduct</h4>
+                    <p>Academic Integrity is defined in the <a href="http://www.governance.uwa.edu.au/procedures/policies/policies-and-procedures?policy=UP07%2F21">University Policy on Academic Conduct</a> as "acting with the values of honesty, trust, fairness, respect and responsibility in learning, teaching and research". UWA expects the highest degree of academic conduct from all students.</p>
+                    <p>Penalties for breach of academic conduct vary according to seriousness of the case, and may include the requirement to do further work or repeat work; deduction of marks; the award of zero marks for the assessment; failure of one or more units; suspension from a course of study; exclusion from the University; non-conferral of a degree, diploma or other award to which the student would otherwise have been entitled.</p>
+                    <p>Students should familiarise themselves with the information and resources available regarding <a href="http://www.student.uwa.edu.au/learning/resources/ace/conduct">academic conduct and ethical scholarship</a> at UWA.</p>
+                    <h4>Special Considerations</h4>
+                    <p>If your study has been adversely affected by illness or other significant circumstances outside of your control, you can apply for special consideration. Significant circumstances may include but are not limited to:</p>
+                    <ul>
+                        <li>serious illness or death of a member of the student's immediate family or household or of a close friend</li>
+                        <li>serious injury</li>
+                        <li>being a victim of a crime</li>
+                        <li>breakdown of relationship</li>
+                        <li>sudden loss of income or employment</li>
+                        <li>serious disruption to domestic arrangements</li>
+                    </ul>
+                    <p>The full policy and information on applying for special consideration is available at <a href="http://www.student.uwa.edu.au/course/exams/consideration">http://www.student.uwa.edu.au/course/exams/consideration</a></p>
+                    <h4>Review and Appeal of Academic Decisions Relating to Students</h4>
+                    <p>The full regulations governing appeal, and the process procedures are available on the <a href="http://www.governance.uwa.edu.au/committees/appeals-committee/review-and-appeal-of-academic-decisions-relating-to-students">Governance website</a></p>
+                    <h4>Compulsory online modules</h4>
+                    <p>UWA has a wealth of resources available to support your learning. These online modules are compulsory for many students:</p>
+                    <ul>
+                        <li>Academic Conduct Essentials (ACE) introduces you to the basic issues of ethical scholarship and the expectations of correct academic conduct at university. All students are required to complete ACE in the first semester of their course.</li>
+                        <li>Communication and Research Skills (CARS) aims to assist you to develop communication and research skills in an academic context and is compulsory for all new coursework students.</li>
+                        <li>Indigenous Study Studies Essentials (INDG1000) introduces you to the shared learning space that UWA embodies. This learning space includes both western and Indigenous knowledge systems. INDG1000 is compulsory for all students completing a first year undergraduate course.</li>
+                    </ul>
+                    <p>More information about these units can be found on the <a href="https://www.student.uwa.edu.au/learning/resources">Learning resources</a> website</p>
+                    <h3>Useful Contacts</h3>
+                    <h4>Student Guild</h4>
+                    <p>The Guild represents all students enrolled at UWA and can help you in a number of ways. For financial, academic or welfare support please email Guild Student Assist at <a href="mailto:assist@guild.uwa.edu.au">assist@guild.uwa.edu.au</a>. For all other queries email <a href="mailto:hello@guild.uwa.edu.au">hello@guild.uwa.edu.au</a> or visit the <a href="http://www.uwastudentguild.com/">UWA Guild website</a>.</p>
+                    <h4>University Library</h4>
+                    <p>Visit one of UWA's six libraries or the <a href="http://www.library.uwa.edu.au/">University Library online</a> to access a wide range of services, study spaces, information and help, including:</p>
+                    <ul>
+                        <li>Access to textbooks and readings for your units</li>
+                        <li>Individual and group study spaces</li>
+                        <li>Wireless internet and your student account</li>
+                        <li>Research, referencing and copyright support</li>
+                        <li>Printing and scanning services</li>
+                    </ul>
+                    <h4>Student Experience</h4>
+                    <p>There is a wealth of material provided by UWA Student Experience that can help you settle into university life and help with many other issues you may encounter as a university student.  Contact details for departments within Student Experiences can be found on their <a href="http://www.student.uwa.edu.au/contact">website</a>.</p>
+                    <h4>Study Smarter</h4>
+                    <p>STUDY<em>Smarter</em> provides free academic advice, support and resources for all undergraduate and postgraduate students at UWA. We can help you to develop the writing, research, English language, maths and stats skills you need to excel in your university studies. Get personalised advice at <a href="http://www.student.uwa.edu.au/learning/studysmarter/writesmart_drop-in">WRITE<em>Smart</em> Drop-in</a> and <a href="http://www.student.uwa.edu.au/learning/studysmarter/mathssmart/mahssmart-drop-ins">(ma+hs)<em>Smart </em>Drop-in</a>, and find out about our extensive range of on-campus workshops, and online study guides, videos and tips on the <a href="http://www.studysmarter.uwa.edu.au">STUDYS<em>marter</em> website</a>.</p>
+                    <h4>Student Administration</h4>
+                    <p>Student Admin deal with enrolments, fees and other vital services for students. They can be contacted via <a href="http://www.student.uwa.edu.au/course">their website</a></p>
+                </div>
+            </div>
+            <div class="container clearfix">
+                <div class="content clearfix" id="SchoolFacultyContent">
+                    <div id="includedContent"></div>
+                    <div id="includedContent02"></div>
+                </div>
+            </div>
+            <!-- end section -->
+            <!--
+            <xxxx id="SchoolFacLoad" type="xxxx/xxxxxxxxxx">
+                        //this gets the full url
+                        var url = document.location.href;
+                        //this removes the anchor at the end, if there is one
+                        url = url.substring(0, (url.indexOf("#") == -1) ? url.length : url.indexOf("#"));
+                        //this removes the query after the file name, if there is one
+                        url = url.substring(0, (url.indexOf("?") == -1) ? url.length : url.indexOf("?"));
+                        //this removes everything before the last slash in the path
+                        url = url.substring(url.lastIndexOf("/") + 1, url.length);
+                        //this removes the UnitID_TeachingPeriod as a string for renaming to the Editable file to load.
+                        var loaderFile = url.substr(0, (url.length - 17));
+                        $(function() { $("#includedContent").load(loaderFile + "_SchoolFac_Editable.html"); });
+                </xxxx>
+            -->
+            <!--
+                <xxxx id="defaultLoad" type="xxxx/xxxxxxxxxx">
+                        $(function() { $("#includedContent02").load("../../https://lms.uwa.edu.au/bbcswebdav/institution/Unit_Outlines_2019/bootstrap/Templates/stndrdText.html"); });
+                </xxxx>
+            -->
+            <!--[om] moved scripts to foot so not to block DOM-->
+            <!--
+            <xxxx>
+                        document.documentElement.className = document.documentElement.className.replace(/(\s|^)no-js(\s|$)/, '$1js$2');
+
+                        function printDiv(divName) {
+                        var originalContents = document.body.innerHTML;
+                        var printContents = document.getElementById(divName).innerHTML;
+                        document.body.innerHTML = printContents;
+                        window.print();
+                        document.body.innerHTML = originalContents;
+                        }
+                </xxxx>
+            -->
+        </div>
+    </section>
+</body>
+</html>
