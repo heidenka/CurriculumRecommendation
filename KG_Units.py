@@ -1,8 +1,8 @@
 import json
-import networkx as nx
+import networkx as nx # neo4j
 import matplotlib.pyplot as plt
 from pyvis.network import Network
-from llama_index import GPTKnowledgeGraphIndex
+from llama_index import GPTKnowledgeGraphIndex, KnowledgeGraphIndex
 from llama_index.schema import TextNode
 
 

@@ -4,12 +4,19 @@ from KG_Units import CoursesKnowledgeGraph
 import os
 
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "your_key"
 llm = OpenAI(temperature=0, model="gpt-3.5-turbo")
 service_context = ServiceContext.from_defaults(llm=llm)
 
-index = CoursesKnowledgeGraph(service_context)
-qe = index.getQueryEngine()
+courseGraph = CoursesKnowledgeGraph(service_context)
+qe = courseGraph.getQueryEngine()
+
+from pyvis.network import Network
+
+g = courseGraph.index.get_networkx_graph(limit=100)
+net = Network(notebook=True, cdn_resources="in_line", directed=True)
+net.from_nx(g)
+net.show('data/example.html')
 
 def printQueryandAnswer(qe, query):
     print("=========================================")
